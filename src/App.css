@@ -1,44 +1,37 @@
 .uls {
-  list-style: none;
-  overflow: scroll;
-  display: flex;
-  align-items: stretch;
-
+    list-style: none;
+    overflow: scroll;
+    display: flex;
+    align-items: stretch;
 }
 
 .cont {
-  background: rgba(66, 165, 245, 1);
+    background: rgba(66, 165, 245, 0.5);
 }
 
 .listas {
-  list-style: none;
-  display: inline-block;
-  min-width: 200px;
-  margin: 5px;
-  height: 300px;
-  color: yellow;
-  font-size: 20px;
-  
+    list-style: none;
+    display: inline-block;
+    min-width: 200px;
+    margin: 5px;
+    height: 300px;
+    color: yellow;
+    font-size: 20px;
 }
 
 .spn {
-  background: rgba(129, 134, 138, 0.6)
+    background: rgba(129, 134, 138, 0.6)
 }
 
-.listas:hover{
-  color: blue;
-  font-size: 20px;
-  
-
+.listas:hover {
+    color: blue;
+    font-size: 20px;
 }
 
 .posterCentral {
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 600px;
-  color: white;
-  font-size: 20px;
-  
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    color: white;
+    font-size: 20px;
 }
-
-
